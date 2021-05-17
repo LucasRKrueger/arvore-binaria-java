@@ -1,0 +1,14 @@
+
+public class NoArvore {
+	int info;
+	NoArvore primeiro;
+	NoArvore proximo;
+	
+	public NoArvore(int info) {
+		this.info = info;
+	}
+	
+	public void inserirFilho(NoArvore sa) {
+		
+	}
+}

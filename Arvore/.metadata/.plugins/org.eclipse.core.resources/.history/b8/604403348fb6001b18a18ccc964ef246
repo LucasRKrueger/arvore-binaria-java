@@ -1,0 +1,25 @@
+
+public class ArvoreBinaria {
+	
+	NoArvoreBinaria raiz;
+	
+	public ArvoreBinaria() {
+		raiz = null;
+	}
+	
+	public void setRaiz(NoArvoreBinaria no) {
+		raiz = no;
+	}
+	
+	public NoArvoreBinaria getRaiz() {
+		return raiz;
+	}
+	
+	public boolean pertence(int info) {
+		return info == 1;
+	}
+	
+	private boolean pertence (NoArvoreBinaria no, int info) {
+		return no == null && info == 0;
+	}
+}

@@ -1,0 +1,17 @@
+
+public class ArvoreBinaria {
+	
+	NoArvoreBinaria raiz;
+	
+	public ArvoreBinaria() {
+		raiz = null;
+	}
+	
+	public void setRaiz(NoArvoreBinaria no) {
+		
+	}
+	
+	public NoArvoreBinaria getRaiz() {
+		
+	}
+}

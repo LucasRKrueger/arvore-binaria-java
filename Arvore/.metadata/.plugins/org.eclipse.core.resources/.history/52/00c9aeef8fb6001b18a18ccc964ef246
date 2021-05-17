@@ -1,0 +1,19 @@
+
+public class NoArvoreBinaria {
+	int info;
+	NoArvoreBinaria esquerda;
+	NoArvoreBinaria direita;
+	
+	public NoArvoreBinaria(int info) {
+		this.info = info;
+	}
+	
+	public NoArvoreBinaria getEsquerda() {
+		return esquerda;
+	}
+	
+	public NoArvoreBinaria getDireita() {
+		return direita;
+	}
+}
+

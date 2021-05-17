@@ -1,0 +1,8 @@
+
+public class NoArvore {
+	int info;
+	
+	public NoArvore(int info) {
+		this.info = info;
+	}
+}

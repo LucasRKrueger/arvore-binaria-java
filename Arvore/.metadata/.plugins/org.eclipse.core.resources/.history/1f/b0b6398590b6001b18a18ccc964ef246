@@ -1,0 +1,37 @@
+
+public class NoArvoreBinaria {
+	int info;
+	NoArvoreBinaria esquerda;
+	NoArvoreBinaria direita;
+	
+	public NoArvoreBinaria(int info) {
+		this.info = info;
+	}
+	
+	public NoArvoreBinaria(int info, NoArvoreBinaria esquerda, NoArvoreBinaria direita) {
+		this.info = info;
+		this.esquerda = esquerda;
+		this.direita = direita;
+	}
+	
+	public int getInfo() {
+		return this.info;
+	}
+	
+	public NoArvoreBinaria getEsquerda() {
+		return this.esquerda;
+	}
+	
+	public NoArvoreBinaria getDireita() {
+		return this.direita;
+	}
+	
+	public void setEsquerda(NoArvoreBinaria esquerda) {
+		this.esquerda = esquerda;
+	}
+	
+	public void setDireita(NoArvoreBinaria direita) {
+		this.direita = direita;
+	}	
+}
+

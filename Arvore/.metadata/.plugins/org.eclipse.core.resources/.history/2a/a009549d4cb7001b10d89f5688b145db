@@ -1,0 +1,43 @@
+
+public class ArvoreBinaria {
+	
+	NoArvoreBinaria raiz;
+	
+	public ArvoreBinaria() {
+		raiz = null;
+	}
+	
+	public void setRaiz(NoArvoreBinaria no) {
+		raiz = no;
+	}
+	
+	public NoArvoreBinaria getRaiz() {
+		return raiz;
+	}
+	
+	public boolean pertence(int info) {
+		return pertence(this.raiz, info);
+	}
+	
+	private boolean pertence (NoArvoreBinaria no, int info) {
+		if(no == null) {
+			return false;
+		} else {
+			return no.info == info ||
+			       pertence(no.esquerda, info) ||
+			       pertence(no.direita, info);
+		}
+	}
+	
+	public String toString() {
+		return arvorePre(this.raiz);
+	}
+	
+	private String arvorePre(NoArvoreBinaria no) {
+		return no.toString();
+	}
+	
+	public boolean estaVazia() {
+		return this.raiz == null;
+	}
+}

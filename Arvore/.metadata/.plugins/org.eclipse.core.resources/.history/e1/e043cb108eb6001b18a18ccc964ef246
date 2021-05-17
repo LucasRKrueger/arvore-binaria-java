@@ -1,0 +1,15 @@
+
+public class Arvore {
+
+	public Arvore() {
+		
+	}
+	
+	public void setRaiz(NoArvore no) {
+		
+	}
+	
+	public NoArvore getRaiz() {
+		
+	}
+}

@@ -1,0 +1,12 @@
+
+public class NoArvore {
+	int info;
+	
+	public NoArvore(int info) {
+		this.info = info;
+	}
+	
+	public void inserirFilho(NoArvore sa) {
+		
+	}
+}
