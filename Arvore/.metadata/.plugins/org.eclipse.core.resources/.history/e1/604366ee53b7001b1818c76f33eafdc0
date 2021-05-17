@@ -43,11 +43,7 @@ public class ArvoreBinaria<T> {
 		return this.raiz == null;
 	}
 	
-	public int contarNos() {
-		return contarNos(this.raiz);
-	}
-	
-	private int contarNos(NoArvoreBinaria<T> no) {
+	public int contarNos(NoArvoreBinaria<T> no) {
 		 return no == null ? 0 : 1 + contarNos(no.getEsquerda()) + contarNos(no.getDireita());
 	}
 }

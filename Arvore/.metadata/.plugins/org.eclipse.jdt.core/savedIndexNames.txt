@@ -1,16 +1,17 @@
-INDEX VERSION 1.131+J:\Programming\FURB\estrutura de dados\Arvore\.metadata\.plugins\org.eclipse.jdt.core
-1408101.index
-4062523747.index
-1671692264.index
-819262767.index
-1750077651.index
+INDEX VERSION 1.131+J:\Programming\FURB\estrutura de dados\arvore-binaria-java\Arvore\.metadata\.plugins\org.eclipse.jdt.core
+1506287865.index
 3103452665.index
-4068611485.index
 2495183229.index
-1343822471.index
-236160274.index
+1671692264.index
+4068611485.index
+953106599.index
 715293642.index
 3857090404.index
 508671945.index
-953106599.index
-1506287865.index
+984395566.index
+1750077651.index
+1408101.index
+1343822471.index
+819262767.index
+4062523747.index
+236160274.index

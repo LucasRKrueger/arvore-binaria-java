@@ -139,6 +139,6 @@ class ArvoreBinariaTest {
 		ArvoreBinaria<Integer> arvore = new ArvoreBinaria<>();
 		arvore.setRaiz(no1);
 		
-		assertEquals(arvore.contarNos(), 7);	
+		assertEquals(arvore.contarNos(), false);	
 	}
 }
